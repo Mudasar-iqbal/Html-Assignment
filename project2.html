@@ -1,0 +1,172 @@
+<html lang="en">
+<head>
+<title>Personal Page</title>
+<style type="text/css">
+.main{
+height:80px;
+width:1000px;
+border:4px solid;
+background-color:orange;
+margin-left:200px;
+}
+.main h1{
+margin-left:60px;
+color:white;
+font-family:Arial Rounded MT Bold;
+}
+.main1 img{
+border-radius:50%;
+width:50px;
+height:50px;
+margin-left:700px;
+margin-top:-60px;
+}
+.main2 img{
+border-radius:50%;
+width:50px;
+height:50px;
+margin-left:800px;
+margin-top:-60px;
+}
+.main3 img{
+border-radius:50%;
+width:50px;
+height:50px;
+margin-left:900px;
+margin-top:-60px;
+}
+.main4{
+width:1000px;
+height:300px;
+border:1px solid;
+border-color:black;
+margin-left:200px;
+}
+.main4 img{
+width:1005px;
+height:300px;
+
+}
+.main5{
+width:1000px;
+height:1550px;
+margin-left:200px;
+border:2px solid;
+border-color:black;
+}
+.main5 ul{
+list-style:none;
+}
+.main5 ul li{
+display:inline;
+margin-left:100px;
+float:left;
+}
+.main6{
+width:1335px;
+height:100px;
+}
+.main7{
+margin-left:30px;
+}
+.main8{
+margin-left:30px;
+}
+.main9{
+margin-left:30px;
+}
+.main10{
+margin-left:30px;
+}
+</style>
+<script type="text/JavaScript">
+
+	function validate(theForm) { // passing the form object
+    var val = theForm.textField1.value;
+    if (val =="") { 
+		alert('Please enter your email and message');
+		theForm.textField1.focus();
+		return false; // cancel submission
+  }
+  else{
+		alert('your message has been received,I will get back to you soon:');
+		theForm.textField1.focus();
+		return true; // allow submit
+	}
+}
+</script>
+</head>
+<body>
+<div class="main">
+<h1>MUDASAR IQBAL</h1>
+<div class="main1"><a href="http://www.facebook.com"/> <img src="is (3).jpg"/></div>
+<div class="main2"><a href="http://www.twitter.com"/><img src="is (2).jpg"/></div>
+<div class="main3"><a href="http://www.gmail.com"/><img src="is (4).jpg"/></div>
+</div>
+<div class="main4">
+<img src="facebook_cover_photo_gemini_pink-851x315.jpg">
+</div>
+<div class="main5">
+<div class="main6">
+<ul>
+<li><a href="#About Me"><h3>About Me</h3></a></li>
+<li><a href="#Programming Skills"><h3>Programming Skills</h3></a></li>
+<li><a href="#Hobbies"><h3>Hobbies</h3></a></li>
+<li><a href="#Contact Me"><h3>Contact Me</h3></a></li>
+</ul></div>
+<div class="main7"><h1><font text color="blue"><a name="About Me"> About Me :</a></font></h1>
+<p><h4>My name is Mudasar iqbal.I am from Chishtian Sharief.</h4></p>
+<p><h4>I got 756 marks in FSC pre enginnering from chistian then I studied BSIT Honor from Islamia University Bahawalpur.</h4></p>
+<p><h4>My dream is to make a good developer and an well educated person.I interested in web development and other  programming languages like C--,C++,PHP,Android.</h4></p>
+</div>
+<div class="main8"><h1><font text color="blue"> <a name="Programming Skills">Programming Skills :</a></font></h1>
+<b> Some of my skills in computer are listed below ; </b>
+<ol>
+  <li><h3>HTML</h3></li>
+  <li><h3>CSS</h3></li>
+  <li><h3>JAVA OR C--</h3></li>
+  <li><h3>C++</h3></li>
+</ol>
+</div>
+<div class="main9"><h1><font text color="blue"> <a name="Hobbies">Hobbies</a></font></h1>
+<ol>
+  <li><h3>Cricket Match</h3></li>
+  <li><h3>Racing</h3></li>
+  <li><h3>Reading Islamic Article</h3></li>
+  <li><h3>Attending and Celebrate Mehfil-e-Milad-Mustafa(PBUH)</h3></li>
+  <li><h3>Poetry</h3></li>
+</ol>
+</div>
+<div class="main10"><h1><font text color="blue"><a name="Contact Me"> Contact Me :</a></font></h1>
+<h3> Address :</h3>
+<h4>Chak No 105/Fateh P/O same Tehsil Chishtian Dist BWN.</h4>
+<h3> Email : </h3>
+<h4><p><a href="mudasar6549@gmail.com">mudasar6549@gmail.com</a></p></h4>
+<h3> Phone : </h3>
+<h4>+923086549554</h4>
+</div>
+<div class="main11">
+<h2>You can directly send me message below</h2>
+<form onsubmit="return validate(this)">
+<b> Email : </b>  &nbsp&nbsp&nbsp
+<input type="text" name="textField1" size="35" value="" /> 
+</br><br>
+&nbsp &nbsp &nbsp <h2> Message : </h2>
+<textarea name="Message1"  rows="8" cols="100" >  </textarea>
+&nbsp<br>&nbsp<br>&nbsp<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+<input type="submit" value="submit"  />
+&nbsp&nbsp&nbsp
+<input type="reset" value="reset" />
+
+</form>
+
+
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
